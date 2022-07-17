@@ -16,7 +16,7 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS2 }}
+        creds: '{"clientId":"a16a1d7d-cb85-4fe8-b83f-75e0218c182b","clientSecret":"RzJ8Q~X6UScpbpoAXNSUAjTqdapTw0DJFAGu0c7Q","subscriptionId":"fc73eb63-e876-48a9-94a9-4ac5e0e25fc8","tenantId":"50cba28e-3ecd-4614-bfc4-c27d07fe38c7"}'
 
     - name: Checkout Code
       uses: actions/checkout@v2
